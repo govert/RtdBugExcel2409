@@ -12,7 +12,7 @@ using System.Windows.Forms;
 ]
 public class KerrSampleRtdServer : IRtdServer
 {
-    public const string ServerProgId = "Kerr.Sample.RtdServer.InAddIn";
+    public const string ServerProgId = "Kerr.Sample.RtdServer";
 
     private IRTDUpdateEvent m_callback;
     private Timer m_timer;
