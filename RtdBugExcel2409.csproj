@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+
+  
+  
+</Project>
