@@ -59,7 +59,7 @@ public class SlowEchoRtdServer : IRtdServer
 
         var timer = new Timer
         {
-            Interval = (int)ResultDelay.TotalMilliseconds,
+            Interval = (int)ResultDelay.TotalMilliseconds + 300, // Add a bit of buffer so we know the UpdateNotify happens after the topic is ready
         };
         timer.Tick += new EventHandler(TimerEventHandler);
 
